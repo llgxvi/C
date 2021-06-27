@@ -33,4 +33,9 @@ void main()
   // https://stackoverflow.com/a/14461757
   // https://en.wikipedia.org/wiki/Null-terminated_string
   // https://en.wikipedia.org/wiki/Null_character
+
+  // char s[] = "geeks\0geeks\0";
+  // sizeof    ARR s is 13 (not 12)
+  // strlen of STR s 5
+  // STR can't store null
 }
