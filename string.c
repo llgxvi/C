@@ -38,4 +38,6 @@ void main()
   // sizeof    ARR s is 13 (not 12)
   // strlen of STR s is 5
   // STR can't store null
+
+  // https://stackoverflow.com/a/8732449
 }
