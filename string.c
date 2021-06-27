@@ -25,4 +25,10 @@ void main()
   pr("%ld\n", sizeof(s)); // 6
   pr("%ld\n", strlen(s)); // 3
   puts(s);                // gee
+
+  // '\0' IS the NULL character
+  // str len is found by searching for
+  // the first NULL byte
+  // https://stackoverflow.com/a/14462305
+  // https://stackoverflow.com/a/14461757
 }
