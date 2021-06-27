@@ -36,6 +36,6 @@ void main()
 
   // char s[] = "geeks\0geeks\0";
   // sizeof    ARR s is 13 (not 12)
-  // strlen of STR s 5
+  // strlen of STR s is 5
   // STR can't store null
 }
