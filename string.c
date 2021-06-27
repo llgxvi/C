@@ -31,4 +31,6 @@ void main()
   // the first NULL byte
   // https://stackoverflow.com/a/14462305
   // https://stackoverflow.com/a/14461757
+  // https://en.wikipedia.org/wiki/Null-terminated_string
+  // https://en.wikipedia.org/wiki/Null_character
 }
