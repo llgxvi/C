@@ -43,12 +43,15 @@ void main()
 
   const char *s1 = "xxx";
   s1 = "geeks";
-  pr("%c %c\n", *s1, *(s1+1)); // g e
+  pr("%c %c\n", *s1, *(s1++)); // e g ❓
 
   char s2[] = "geeks";
   pr("%c %c\n", *s2, *(s2+1)); // g e
 
   // s++
   // https://stackoverflow.com/a/3364548
+  // https://stackoverflow.com/a/15028431
+  // https://www.geeksforgeeks.org/execution-printf-operators/
+  // https://www.programiz.com/article/increment-decrement-operator-difference-prefix-postfix
   // https://www.geeksforgeeks.org/whats-difference-between-char-s-and-char-s-in-c/
 }
