@@ -3,7 +3,7 @@
 
 #define pr printf
 
-int main()
+void main()
 {
   // STR is defined as an ARR of CHARs
   // DIFF between CHAR ARR and STR is the trailing '\0'
