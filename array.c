@@ -8,18 +8,18 @@ void main()
   // print the same addr, but diff types of addr
   pr("%p\n", a);    // 0x7ffd6d06ac22
   pr("%p\n", &a);   // 0x7ffd6d06ac22
-  pr("%p\n", a+1);  // 0x7ffd6d06ac23
-  pr("%p\n", &a+1); // 0x7ffd6d06ac28
+  pr("%p\n", a+1);  // 0x7ffd6d06ac23 1️⃣
+  pr("%p\n", &a+1); // 0x7ffd6d06ac28 6️⃣
 
   // warning: format ‘%d’ expects argument of
   // type ‘int’, but argument 2 has type ‘char *’ ⬅️
-  // a points to the 1st ele
+  // a points to the 1st ele 1️⃣
   // a + 1 results in addr increment of 1
   // pr("%d", a);
 
   // warning: format ‘%d’ expects argument of
   // type ‘int’, but argument 2 has type ‘char (*)[6]’ ⬅️
-  // &a points to the whole arr
+  // &a points to the whole arr 6️⃣
   // &a + 1 results in addr increment of 1 * 6
   // pr("%d", &a);
 
