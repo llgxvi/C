@@ -6,8 +6,10 @@ void main()
 {
   char a[] = "geeks";
   // print the same addr, but diff types of addr
-  pr("%p\n", a);
-  pr("%p\n", &a);
+  pr("%p\n", a);    // 0x7ffd6d06ac22
+  pr("%p\n", &a);   // 0x7ffd6d06ac22
+  pr("%p\n", a+1);  // 0x7ffd6d06ac23
+  pr("%p\n", &a+1); // 0x7ffd6d06ac28
 
   // warning: format ‘%d’ expects argument of
   // type ‘int’, but argument 2 has type ‘char *’ ⬅️
