@@ -54,4 +54,7 @@ void main()
   // https://www.geeksforgeeks.org/execution-printf-operators/
   // https://www.programiz.com/article/increment-decrement-operator-difference-prefix-postfix
   // https://www.geeksforgeeks.org/whats-difference-between-char-s-and-char-s-in-c/
+
+  // Strings (and why there is no such thing)
+  // https://boredzo.org/pointers/
 }
