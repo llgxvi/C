@@ -1,0 +1,3 @@
+https://stackoverflow.com/a/4955297
+
+> Further, when you assign 0, NULL and nullptr to a pointer the bits in the pointer are not necessarily all reset: the pointer may not contain "0" at the hardware level, or refer to address 0 in your virtual address space. The compiler is allowed to store something else there if it has reason to, but whatever it does - if you come along and compare the pointer to 0, NULL, nullptr or another pointer that was assigned any of those, the comparison must work as expected. So, below the source code at the compiler level, "NULL" is potentially a bit "magical" in the C and C++ languages...
