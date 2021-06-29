@@ -35,4 +35,7 @@ void main()
   // pr("%d\n", 0x7ffcbc5f5362);
 
   // pr("%d\n", (❓)a==&a);
+
+  // [] operator
+  // https://stackoverflow.com/questions/19782111/does-the-bracket-operator-only-have-a-single-use
 }
