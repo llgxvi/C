@@ -32,3 +32,10 @@ movl $0xXXX, -0xc(%rbp) // local var
 pop %rbp // restore 2️⃣ in rbp
 retq     // ret to  1️⃣
 ```
+
+```
+[rbp + 0]  - return address
+[rbp + 4]  - parameter a
+[rbp + 8]  - parameter b
+[rbp + 12] - parameter c
+```
