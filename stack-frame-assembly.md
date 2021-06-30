@@ -39,3 +39,13 @@ retq     // ret to  1️⃣
 [rbp + 8]  - parameter b
 [rbp + 12] - parameter c
 ```
+
+```
+[rbp - 4] - local var
+[rbp - 8] - local var
+```
+
+```
+[rsp + 0] - local var
+[rsp + 4] - local var
+```
