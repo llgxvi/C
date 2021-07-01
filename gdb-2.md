@@ -120,3 +120,8 @@ Dump of assembler code for function natural_generator:
    0x0000555555555173 <+42>:    retq   
 End of assembler dump.
 ```
+
+### 0x555555558010 vs 4010
+- https://stackoverflow.com/questions/60235105/why-does-memory-address-change-in-ubuntu-and-not-in-redhat
+- https://en.wikipedia.org/wiki/Position-independent_code
+
