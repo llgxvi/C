@@ -1,10 +1,10 @@
-Platform
+#### Platform
 ```
 Ubuntu 20.04.1 LTS
 GNU/Linux 5.4.0-47-generic x86_64
 ```
 
-static.c
+#### static.c
 ```
 #include <stdio.h>
 
@@ -26,6 +26,8 @@ int main()
 }
 ```
 
+---
+
 ```
 CFLAGS="-g -O0" make static
 ./static
@@ -41,7 +43,7 @@ gdb static
 (gdb) disassemble
 ```
 
-Dump of assembler code for function  natural_generator:
+#### Dump of assembler code for function  natural_generator:
 ```
 movl   $0x1,-0x4(%rbp)   // 1
 mov    0x2eb2(%rip),%eax // 2
@@ -69,6 +71,10 @@ rip(0x2eb2) // retrieve
 rip(0x2ea9) // store
 rip(0x2ea3) // retrieve
 ```
+
+---
+
+https://stackoverflow.com/questions/6894198/objdump-output-what-do-the-columns-represent
 
 ```
 // -s: display full content of section requested 
